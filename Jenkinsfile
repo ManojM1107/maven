@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main',
+                git branch: 'master',
                     url: 'https://github.com/ManojM1107/lab-maven.git',
                     credentialsId: 'github-token'
             }
